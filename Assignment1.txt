@@ -1,0 +1,16 @@
+1. What is RDD?
+	 RDD’s in Spark are immutable distributed collection of objects.
+	They are not actual data, but they are Objects, which contain information about data residing on the cluster	
+   
+2. Define Partitions.
+	spliting of task or processes in to smaller task .smaller task is called as partitions
+
+3. What operations does RDD support?
+	RDDs load the data for us and are resilient, which means they can be recomputed.
+        RDDs keeps track of Transformations and check them periodically. If a node fails, it can rebuild the lost RDD partition on the other nodes, in parallel
+	
+4. What do you understand by Transformations in Spark?
+	Transformations, which creates a new dataset from the previous RDD and 
+
+5. Define Actions
+	Actions, which return a value to the driver program after performing the computation on the dataset.
