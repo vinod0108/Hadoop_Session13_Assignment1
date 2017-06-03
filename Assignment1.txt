@@ -3,7 +3,8 @@
 	They are not actual data, but they are Objects, which contain information about data residing on the cluster	
    
 2. Define Partitions.
-	spliting of task or processes in to smaller task .smaller task is called as partitions
+	Partition is a logical chunk of a large distributed data set.
+	RDDs are collections of objects. Under the hood, these objects are stored in partitions. When performing computations on RDDs, these partitions can be operated on in parallel.
 
 3. What operations does RDD support?
 	RDDs load the data for us and are resilient, which means they can be recomputed.
